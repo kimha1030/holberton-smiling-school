@@ -1,0 +1,78 @@
+:root {
+  --primary: #c271ff;
+  --font-family-base: "Source Sans Pro", sans-serif;
+}
+/* Navbar */
+
+.navbar {
+  border-bottom: none;
+  background-color: transparent;
+  font-family: var(--font-family-base);
+}
+
+.navbar-dark .navbar-toggler {
+  color: transparent;
+  border-color: transparent;
+}
+
+.smile-face {
+  width: 36px;
+}
+
+.logo-text {
+  width: 114px;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  font-family: var(--font-family-base);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary);
+  opacity: 0.9;
+}
+
+/* header */
+
+.header-section {
+  background-image: url(images/pic_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-position: center center; */
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 35rem;
+  padding: 15rem 0;
+}
+
+.container {
+  margin-top: 8rem;
+}
+.subtitle {
+  margin-top: 10rem;
+  font-size: 32px;
+  font-weight: 300px;
+  font-family: var(--font-family-base);
+}
+
+.learn {
+  color: var(--primary);
+  font-family: var(--font-family-base);
+}
+
+/* Cards */
+
+.card-deck {
+  margin-top: 5.5rem;
+}
+
+.card {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.card-img-top {
+  width: 12rem;
+}
